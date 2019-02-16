@@ -1,0 +1,270 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+   
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+	.aboutImg img{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .newsNav{
+        display: none;
+    }
+
+    .headerTitle{
+        margin-top: 0;
+    }
+
+    .footer{
+        min-height: 320px;
+    }
+
+    .burger{
+        display: block;
+        float: right;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 80%;
+    }
+
+    .mobileMenu{
+        display: block;
+        width: 100%;
+        text-align: center;
+        list-style-type:none ;
+        background-color: #1f1f1f;
+        margin-top: 70px;
+        z-index:1;
+        position: absolute;
+    }
+
+    .mobileMenu li{
+        list-style-type: none;
+        height: 50px;
+    }
+
+    .mobileMenu a{
+        font-size: 16px;
+        font-weight: normal;
+        color:white;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+
+    .mobileMenu.mobileNews{
+        color:white;
+    }
+
+    input{
+        width: 233px;
+        height: 50px;
+        margin:auto;
+        margin-top: 5px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    textarea{
+        width: 500px;
+        height: 170px;
+        font-family: 'Avenir Next', sans-serif;
+        padding:10px;
+    }
+
+    .contacts{
+        min-height: 1000px;
+    }
+
+    .adress{
+        margin-left: 0;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.menu{
+        display: none;
+    }
+
+    .newsNav{
+        display: none;
+    }
+
+    .headerTitle{
+        margin-top: 0;
+    }
+
+    .aboutImg img{
+        display: none;
+    }
+
+    .titleLine{
+        width: 50px;
+    }
+
+    .aboutTitle{
+        margin-left: 5px;
+    }
+
+    .aboutText{
+        margin-left: 70px;
+    }
+
+    .aboutTextTwo{
+        margin-left: 70px;
+    }
+
+    .aboutbtn{
+        margin-left: 70px;
+    }
+
+    .punktFooter{
+        float: left;
+    }
+
+    input{
+        width: 233px;
+        height: 50px;
+        margin:auto;
+        margin-top: 5px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    textarea{
+        width: 500px;
+        height: 170px;
+        font-family: 'Avenir Next', sans-serif;
+        padding:10px;
+    }
+
+    .contacts{
+        min-height: 1200px;
+    }
+
+    .adress{
+        margin-left: 0;
+    }
+
+
+    .formTitle{
+        margin-left: 0;
+    }
+
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.citate{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .headerTitle p{
+        width: 260px;
+        margin-top: 30px;
+    }
+
+    .hb{
+        text-align: center;
+    }
+
+    .aboutText{
+        margin-left: 55px;
+        width: 200px;
+    }
+
+    .aboutTextTwo{
+        margin-left: 55px;
+        width: 200px;
+    }
+
+    .aboutbtn{
+        margin-left: 20px;
+    }
+
+    .footer{
+        min-height: 630px;
+    }
+
+    input{
+        width: 210px;
+        height: 50px;
+        margin:auto;
+        margin-top: 5px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    textarea{
+        width: 210px;
+        height: 170px;
+        font-family: 'Avenir Next', sans-serif;
+        padding:10px;
+    }
+
+    .contacts{
+        min-height: 1200px;
+    }
+
+    .adress{
+        margin-left: 0;
+    }
+
+    .titleLine{
+        display: none;
+    }
+
+    .formTitle{
+        margin-left: 0;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
